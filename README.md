@@ -24,12 +24,12 @@ Esta es la **Versión 1.0**, diseñada para funcionar de manera local, almacenan
 
 ### Vista Principal
 
-![image-1](public/image-1.png)
+![image1](public/image1.png)
 
 ### Vista de Edición
 
-![image-2](public/image-2.png)
+![image2](public/image2.png)
 
 ### Vista popup
 
-![image-3](public/image-3.png)
+![image3](public/image3.png)
