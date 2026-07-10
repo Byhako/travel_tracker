@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Travel Tracker 🗺️✈️
 
-## Getting Started
+Una aplicación web personal construida con **Next.js** para llevar un registro visual y detallado de los lugares que he visitado.
 
-First, run the development server:
+Esta es la **Versión 1.0**, diseñada para funcionar de manera local, almacenando los datos en un archivo JSON en el disco duro mediante las API Routes de Next.js, preparando el terreno para una futura migración a bases de datos en la nube.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Características Principales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Mapa Interactivo:** Integración con Leaflet para visualizar todos los lugares visitados con pines personalizados.
+- **Captura de Coordenadas:** Al hacer clic en cualquier lugar del mapa, el formulario de registro se abre con la latitud y longitud pre-llenadas.
+- **Navegación Sincronizada:** Al hacer clic en un destino desde la lista lateral, el mapa hace una animación (_flyTo_) hacia el lugar exacto y despliega las notas guardadas.
+- **Gestión Completa (CRUD):** Capacidad de agregar nuevos destinos, editar notas, corregir fechas o eliminar registros.
+- **Almacenamiento Local:** Los datos persisten en un archivo local (`places.json`) gestionado por un backend integrado en el mismo proyecto.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologías Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js (App Router)
+- **Librería UI:** React 18
+- **Lenguaje:** TypeScript
+- **Estilos:** Tailwind CSS
+- **Mapas:** Leaflet y `react-leaflet`
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+### Vista Principal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image-1](./public/image-1.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Vista de Edición
 
-## Deploy on Vercel
+![image-2](./public/image-2.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Vista popup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image-3](./public/image-3.png)
